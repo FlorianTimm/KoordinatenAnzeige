@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Hilfe zur KoordinatenAnzeige</title>
+</head>
+<body>
+<h1>Hilfe zu Koordinatenanzeige</h1>
+<img src="bild.png" alt="Screenshot" />
+<h2>Dateien verwenden</h2>
+<h3>Datei einlesen</h3>
+Das Dialogfenster zum Einlesen von Dateien findet sich unter [Datei]->[&Ouml;ffnen…].<br />
+Ausgewählt werden können Dateien vom Typ:
+<ul><li>GPX-Dateien mit Wegpunkten und/oder Tracks</li>
+<li>ASCII-Dateien mit einem der folgenden Formate pro Zeile<br />
+<ul style="list-style-type: none;">
+<li>[PKtNr]&nbsp;[Rechtswert]&nbsp;[Hochwert] [Höhe]</li>
+<li>[PKtNr]&nbsp;[Rechtswert]&nbsp;[Hochwert]</li>
+<li>[Rechtswert]&nbsp;[Hochwert]&nbsp;[Höhe]</li>
+<li>[Rechtswert]&nbsp;[Hochwert]</li>
+</ul>
+</ul>
+Nach dem Ausw&auml;hlen der Datei wird eine &Uml;bersicht der eingelesenen Koordinaten 
+und/oder Tracks angezeigt. In diesem Feld kann dann das Referenzsystem 
+der Koordinaten ausgew&auml;hlt werden. Wenn nur einzelne Koordinaten der Datei
+importiert werden sollen, k&ouml;nnen hier die zu importierenden Koordinaten (mehrere
+mit Hilfe der STRG-Taste oder Shift-Taste) ausgewählt werden. Auch k&ouml;nnen Punkte
+bearbeitet werden.<br>
+Nach der Auswahl des Koordinatensystemes und Klick auf OK, werden die Koordinaten 
+importiert und auf der Karte angezeigt
+<h3>Datei speichern</h3>
+Über Datei>Punkte speichern... k&ouml;nnen Punkte in UTM als Textdatei oder als GPX-Datei in geografischen Koordinaten gespeichert werden.
+<h3>Eingelesene Daten entfernen</h3>
+Über Datei>Alle Daten l&ouml;schen können alle Punkte und Tracks aus dem Programm entfernt werden.
+<h2>Karte verwenden</h2>
+In der Kartenansicht sind folgende Funktionen implementiert:
+<h3>Nutzung der Buttons</h3>
+Mittels der Buttons am oberen Kartenrand kann in die Karte gezoomt, rausgezoomt
+und alle Punkte auf dem Kartenabschnitt angezeigt werden ("Fit", diese Funktion steht
+erst nach Einlesen von Punkten oder Tracks zur Verf&uuml;gung).
+<h3>Zoomen mit Maus oder Touchpad</h3>
+Mittels Drehen am Mausrad kann in die Karte gezoomt oder rausgezoomt werden. Hierbei
+wird die Position unter dem Mauszeiger beibehalten.  Bei Notebooks, dessen Touchpads 
+zoomen mittels zwei Fingern unterstützen, kann auch hiermit gezoomt werden.
+<h3>Verschieben der Karte</h3>
+Durch Ziehen oder mit den Buttons an den Kartenr&auml;ndern, kann die Karte verschoben werden.
+Bei Nutzung eines WMS-Hintergrundes kann dieser Vorgang etwas l&auml;nger dauern.
+<h3>Abgreifen von Koordinaten</h3>
+Mittels Klick in die Karte, &ouml;ffnet sich ein Dialogfenster, dass die Position des Klickes in UTM
+anzeigt. Sofern andere Formate gew&uml;nscht sind, kann diese über die Funktion "Punkte erzeugen" geschehen.
+<h3>Erzeugen neuer Punkte</h3>
+Durch Rechtsklick in die Karte können neue Punkte erzeugt werden. Hiermit können auch
+Koordinaten in der Karte in anderen Formaten als dem UTM-Format abgegriffen werden.
+Die Koordinaten k&ouml;nnen ggf. per Hand geändert werden. Auch l&auml;sst sich im Menü ein anderes
+Koordinatensystem ausw&auml;hlen. Bereits eingegebene Daten werden grob transformiert.
+<h3>Koordinatenanzeige</h3>
+Oben-links über dem Kartenbereich werden die aktuellen Koordinaten der Mauszeigerposition in UTM angezeigt.
+<h2>Transformation</h2>
+Hier könnte eine Berechnung stattfinden. Diese Funktion steht in dieser Version noch nicht zur Verf&uuml;gung.
+<h2>Koordinaten- und Trackübersicht</h2>
+Da beide Tabs ähnliche Funktionen bieten, wird hier nicht einzeln auf die beiden Tabs eingegangen.
+Hier werden alle eingelesenen Daten mit Informationen hierzu angezeigt. Es können einzelne Datensätze markiert
+und mittels Klick auf die Löschen-Schaltfl&auml;sche gel&ouml;scht werden. Auch kann die Tabelle mittels Klick auf
+die Spalten&uml;berschrift sortiert werden.<br />
+In der Punkte-&Uuml;bersicht können außerdem auch Punkte mittels Doppelklick auf die zu&auml;ndernde Zelle ge&auml;ndert werden.
+Vor der &Auml;nderung in der Datenhaltung muss die &Auml;nderung bestätigt werden.
+
+<h2>Datenbankzugriff</h2>
+Diese Funktion steht in dieser Version noch nicht zur Verf&uuml;gung.
+<h2>Hintergrund</h2>
+<h3>WMS nutzen</h3>
+Durch setzen des H&auml;ckchens l&auml;sst sich ein WMS als Hintergrund für Deutschland einbinden.
+Diese Funktion funktioniert nur ordnungsgem&auml;ß, wenn die Koordinaten unter Auswahl des richtigen
+Koordinatensystemes importiert wurden. Das &Auml;ndern des Kartenausschnittes kann je nach Geschwindigkeit
+der Internetverbindung bei aktiviertem Hintergrund etwas Zeit in Anspruch nehmen.
+<h2>Infomen&uuml;</h2>
+<h3>Hilfe</h3>
+&Ouml;ffnet diese Hilfe
+<h3>Info...</h3>
+Zeigt die genutze Version des Programmes an.
+
+<h2>Fehlermeldungen und weiterer Support</h2>
+Sofern Fragen oder Fehler auftreten, informieren Sie mich bitte per kurzer Mail an <a href="mailto:florian.timm@hcu-hamburg.de">florian.timm@hcu-hamburg.de</a>.
+
+
+
+</body>
+</html>
